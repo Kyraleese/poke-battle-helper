@@ -1,3 +1,33 @@
+ul li.description {
+  border: none !important;
+  background: white !important;
+  color: black !important;
+}
+
+ul.deals_zero_to li, ul.takes_double_from li{
+  border: 1px solid darkgreen;
+  background: lightgreen;
+}
+
+ul.takes_half_from li{
+  border: 1px solid darkred;
+  background: lightcoral;
+}
+
+ul.deals_double_to li, ul.takes_zero_from li{
+  border: 1px solid darkslategray;
+  background: black;
+  color: white;
+}
+
 li {
   display: inline;
+  margin: .25em;
+  padding: .25em;
 }
+
+ul {
+  margin: .25em;
+  padding: .25em;
+}
+
