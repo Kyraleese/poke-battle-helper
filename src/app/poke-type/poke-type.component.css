@@ -1,7 +1,8 @@
-ul li.description {
-  border: none !important;
-  background: white !important;
-  color: black !important;
+ul[class*="deals_"] li.description, ul[class*="takes_"] li.description {
+  border: none;
+  background: white;
+  color: black;
+  width: 80px;
 }
 
 ul.deals_zero_to li, ul.takes_double_from li{
@@ -21,13 +22,8 @@ ul.deals_double_to li, ul.takes_zero_from li{
 }
 
 li {
-  display: inline;
-  margin: .25em;
-  padding: .25em;
-}
-
-ul {
-  margin: .25em;
+  display: inline-block;
+  margin: auto .25em;
   padding: .25em;
 }
 

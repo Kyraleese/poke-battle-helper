@@ -25,7 +25,6 @@ export class PokeTypeComponent implements OnInit {
   getPokeType(): void {
     const id = this.route.snapshot.paramMap.get("pokemontype");
     this.pokemon = this.poketypes.get(id);
-    
   }
 
 }

@@ -1,0 +1,21 @@
+li {
+  display: inline-block;
+  margin: auto .25em;
+  padding: .25em;
+}
+
+a {
+  background-color: lightseagreen;
+  border: 1px solid darkblue;
+  border-radius: 1em;
+  color: white;
+  padding: .5em .75em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
