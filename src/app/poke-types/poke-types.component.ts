@@ -8,12 +8,16 @@ import { POKETYPES } from '../poketypes';
   styleUrls: ['./poke-types.component.css']
 })
 export class PokeTypesComponent implements OnInit {
-  poketypes = POKETYPES;
+  poketypes =[...POKETYPES.values()];
+  pokemon_types =[...POKETYPES.keys()];
 
-  constructor() { }
+  constructor() { 
+
+  }
 
   ngOnInit() {
     console.log(this.poketypes);
+    console.log(this.pokemon_types);
   }
 
 }
