@@ -5,7 +5,8 @@ import { PokeTypesComponent } from './poke-types/poke-types.component';
 import { PokeTypeComponent } from './poke-type/poke-type.component';
 
 const routes: Routes = [
-  { path: '', component: PokeTypesComponent }
+  { path: '', component: PokeTypesComponent },
+  { path: 'detail/:pokemontype', component: PokeTypeComponent }
 ];
 
 @NgModule({
