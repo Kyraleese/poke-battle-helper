@@ -1,0 +1,22 @@
+<h3>Defender</h3>
+Type: {{pokemon.id}}
+<ul class="deals_zero_to">
+  <li class="description">Deals 0X:</li>
+  <li *ngFor="let deals_zero of pokemon.deals_none">{{deals_zero}}</li>
+</ul>
+<ul class="takes_double_from">
+  <li class="description">Takes 2X:</li>
+  <li *ngFor="let takes_double of pokemon.takes_double">{{takes_double}}</li>
+</ul>
+<ul class="takes_half_from">
+  <li class="description">Takes 1/2X:</li>
+  <li *ngFor="let takes_half of pokemon.takes_half">{{takes_half}}</li>
+</ul>
+<ul class="deals_double_to">
+  <li class="description">Deals 2X:</li>
+  <li *ngFor="let deals_double of pokemon.deals_double">{{deals_double}}</li>
+</ul>
+<ul class="takes_zero_from">
+  <li class="description">Takes 0X:</li>
+  <li *ngFor="let takes_zero of pokemon.takes_none">{{takes_zero}}</li>
+</ul>
