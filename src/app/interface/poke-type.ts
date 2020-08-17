@@ -4,5 +4,6 @@ export interface PokeType {
   takes_half: string[];
   takes_none: string[];
   deals_double: string[];
+  deals_half: string[];
   deals_none: string[];
 }

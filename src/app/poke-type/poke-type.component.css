@@ -5,7 +5,7 @@ ul[class*="deals_"] li.description, ul[class*="takes_"] li.description {
   width: 80px;
 }
 
-ul.deals_zero_to li, ul.takes_double_from li{
+ul.deals_zero_to li, ul.takes_double_from li, ul.deals_half_to li{
   border: 1px solid darkgreen;
   background: lightgreen;
 }

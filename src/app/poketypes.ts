@@ -7,6 +7,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: [],
     takes_none: ["Ghost"],
     deals_none: ["Ghost"],
+    deals_half: ["Rock","Steel"],
     deals_double: []
   }],
   ['Fighting', {
@@ -15,6 +16,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Rock", "Bug", "Dark"],
     takes_none: [],
     deals_none: ["Ghost"],
+    deals_half: ["Flying","Poison","Bug","Psychic","Fairy"],
     deals_double: ["Normal", "Rock", "Steel", "Ice", "Dark"]
   }],
     ['Flying', {
@@ -23,6 +25,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fight","Bug","Grass"],
     takes_none: ["Ground"],
     deals_none: [],
+    deals_half: ["Rock","Steel","Electric"],
     deals_double: ["Fight","Bug","Grass"]
   }],
     ['Poison', {
@@ -31,6 +34,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fighting","Poison","Bug","Grass","Fairy"],
     takes_none: [],
     deals_none: ["Steel"],
+    deals_half: ["Poison","Electric","Rock","Ghost"],
     deals_double: ["Grass","Fairy"]
   }],
     ['Ground', {
@@ -39,6 +43,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Poison","Rock"],
     takes_none: ["Electric"],
     deals_none: ["Flying"],
+    deals_half: ["Bug","Grass"],
     deals_double: ["Poison","Rock","Steel","Fire","Electric"]
   }],
     ['Rock', {
@@ -47,6 +52,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Normal","Flying","Poison","Fire"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Fighting","Ground","Steel"],
     deals_double: ["Flying","Bug","Fire","Ice"]
   }],
     ['Bug', {
@@ -55,6 +61,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fighting","Ground","Grass"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Fighting","Flying","Poison","Ghost","Steel","Fire","Fairy"],
     deals_double: ["Grass","Psychic","Dark"]
   }],
     ['Ghost', {
@@ -63,6 +70,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Poison","Bug"],
     takes_none: ["Normal","Fighting"],
     deals_none: ["Normal"],
+    deals_half: ["Dark"],
     deals_double: ["Ghost","Psychic"]
   }],
     ['Steel', {
@@ -71,6 +79,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Normal","Flying","Rock","Bug","Steel","Grass","Psychic","Ice","Dragon","Fairy"],
     takes_none: ["Poison"],
     deals_none: [],
+    deals_half: ["Steel","Fire","Water","Electric"],
     deals_double: ["Rock","Ice","Fairy"]
   }],
     ['Fire', {
@@ -79,6 +88,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Bug","Steel","Fire","Grass","Ice","Fairy"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Rock","Fire","Water","Dragon"],
     deals_double: ["Bug","Steel","Grass","Ice"]
   }],
     ['Water', {
@@ -87,6 +97,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Steel","Fire","Water","Ice"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Water","Grass","Dragon"],
     deals_double: ["Ground","Rock","Fire"]
   }],
     ['Grass', {
@@ -95,6 +106,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Ground","Water","Grass","Electric"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Flying","Poison","Bug","Steel","Fire","Grass","Dragon"],
     deals_double: ["Ground","Rock","Water"]
   }],
     ['Electric', {
@@ -103,6 +115,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Flying","Steel","Electric"],
     takes_none: [],
     deals_none: ["Ground"],
+    deals_half: ["Grass","Electric","Dragon"],
     deals_double: ["Flying","Water"]
   }],
     ['Psychic', {
@@ -111,6 +124,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fighting","Psychic"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Steel","Psychic"],
     deals_double: ["Fighting"]
   }],
     ['Ice', {
@@ -119,6 +133,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Ice"],
     takes_none: [],
     deals_none: [],
+    deals_half: ["Steel","Fire","Water","Ice"],
     deals_double: ["Flying","Ground","Grass","Dragon"]
   }],
     ['Dragon', {
@@ -127,6 +142,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fire","Water","Grass","Electric"],
     takes_none: [],
     deals_none: ["Fairy"],
+    deals_half: ["Steel"],
     deals_double: ["Dragon"]
   }],
     ['Dark', {
@@ -135,6 +151,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Ghost","Dark"],
     takes_none: ["Psychic"],
     deals_none: [],
+    deals_half: ["Fighting","Dark","Fairy"],
     deals_double: ["Ghost","Psychic"]
   }],
     ['Fairy', {
@@ -143,6 +160,7 @@ export const POKETYPES: Map<String, PokeType> = new Map([
     takes_half: ["Fighting","Bug","Dark"],
     takes_none: ["Dragon"],
     deals_none: [],
+    deals_half: ["Ground","Steel","Fire"],
     deals_double: ["Fighting","Dragon","Dark"]
   }],
 ]);
