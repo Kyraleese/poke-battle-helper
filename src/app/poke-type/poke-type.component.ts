@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { PokeType } from '../interface/poke-type';
 
 @Component({
@@ -7,7 +7,7 @@ import { PokeType } from '../interface/poke-type';
   styleUrls: ['./poke-type.component.css']
 })
 export class PokeTypeComponent implements OnInit {
-  pokemon: PokeType;
+  @Input() pokemon: PokeType;
 
   constructor() { }
 
